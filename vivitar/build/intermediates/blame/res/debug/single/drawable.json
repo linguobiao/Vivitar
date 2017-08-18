@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_left.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\shadow_left.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_top.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\shadow_top.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\separator_table.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\separator_table.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_family.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\bg_table_family.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\user_item_selector.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\user_item_selector.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table1.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\item_table1.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_right.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\shadow_right.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_color1.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\bg_table_color1.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\innofit_selector.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\innofit_selector.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\separator_table_first.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\separator_table_first.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table_header_first.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\item_table_header_first.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\seek_bg.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\seek_bg.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow_bottom.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\default\\res\\drawable\\shadow_bottom.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\my_rotate.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\my_rotate.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\item_table1_header.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\item_table1_header.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\separator_table_header_first.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\separator_table_header_first.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_header.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\bg_table_header.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\separator_table_header.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\separator_table_header.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_table_color2.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\bg_table_color2.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable\\shadow.xml"
+    }
+]

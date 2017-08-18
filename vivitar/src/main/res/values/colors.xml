@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_light_blue">#03c7f1</color>
+    <color name="color_red">#b61023</color>
+    <color name="color_orange">#ff9a00</color>
+    <color name="color_default">#85000000</color>
+    <color name="color_click">#2857AE</color>
+    <color name="color_background_progress">#e6e6e6</color>
+    <color name="color_guide_default">#989898</color>
+    <color name="color_guide_click">#789658</color>
+    <color name="color_chart_week_blue">#848ac8</color>
+    <color name="color_text_week_pink">#bb9bca</color>
+    <color name="color_girl_click">#ffff86d4</color>
+    <color name="color_radio_check">#b1337d</color>
+    <color name="color_radio_uncheck">#ffffffff</color>
+    <color name="color_guide_black">#ff000000</color>
+    <!-- 图标阴影部分颜色 -->
+    <color name="color_chart">#2857AE</color>
+    <color name="color_blue">#0C5CAB</color>
+
+</resources>

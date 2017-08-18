@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_bottom.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_bottom.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_left.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_left.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_top.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_top.xml"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\shadow_right.xml",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\shadow_right.xml"
+    }
+]

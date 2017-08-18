@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spingarr">
+        <item>P-00(user1)</item>
+        <item>P-01(user2)</item>
+        <item>P-02(user3)</item>
+        <item>P-03(user4)</item>
+        <item>P-04(user5)</item>
+        <item>P-05(user6)</item>
+        <item>P-06(user7)</item>
+        <item>P-07(user8)</item>
+        <item>P-08(user9)</item>
+    </string-array>
+
+</resources>

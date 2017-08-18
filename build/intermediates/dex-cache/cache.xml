@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\AS\other\gamut\Vivitar\vivitar\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\achartengine-1.1.0_70fe42f790a029932803a80ae2f20faef6d99714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lingb\.android\build-cache\bbac38181873c933b3607bd155c684885a445861\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\classes_ec5684f2d86f19e1c6658ec0a5fad25ede689c6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lingb\.android\build-cache\2288d5c720974b5ff83c17516a7619f025ba7953\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\classes_e9b6e3a21c4b32f9e33bee8b6ce2b6005bcc7345.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\AS\other\gamut\Vivitar\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7bb0e921f81ff2bd909e32ca14bde8607982d421">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\classes_77baa4ea694020c0087ae98428b18017d54c67ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_1111f304f3a5063fc144bb4a60a147b08f78d422.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lingb\.android\build-cache\bd752692f0d17bd2a563f04fa6e9a1ef6c6c5ae9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\classes_d298c6d54cd8a06b2f6432d307b478e72feeace7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lingb\.android\build-cache\fb16832296b95da0379fbff4deefcec935495cb4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\classes_87db66f9f7a62570b435da720962a38b1ef72518.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lingb\.android\build-cache\04b7c34d1f74361495a5d6b8e8f7aeca2b7718f0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\classes_ac545801cafb6e0c269c0a69d2c3794d667fb12e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lingb\.android\build-cache\03b633e325dc4cb17a584538d325101d3b418b7f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\AS\other\gamut\Vivitar\vivitar\build\intermediates\pre-dexed\debug\classes_737152d9b7962ea582ada18dc3c55c5eceb30912.jar" />
+    </item>
+
+</items>
