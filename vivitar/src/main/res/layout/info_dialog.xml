@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:background="@drawable/button_save_blue"
-                android:text="Save"
+                android:text="@string/save"
                 android:textColor="@android:color/white" />
         </LinearLayout>
     </LinearLayout>

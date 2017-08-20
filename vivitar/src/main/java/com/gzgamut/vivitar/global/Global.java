@@ -7,6 +7,10 @@ import java.util.UUID;
 import android.annotation.SuppressLint;
 
 public class Global {
+
+	public static final String LOG_TAG = "LOG_TAG";
+	public static final boolean DEBUG = true;
+
 	// 蓝牙设备名称
 	public static String DEVICE_NAME_ELECSCALESBH = "ElecScalesBH";
 	

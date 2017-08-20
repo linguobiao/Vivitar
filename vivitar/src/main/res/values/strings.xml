@@ -2,13 +2,8 @@
 <resources>
 
     <string name="cancel">Cancel</string>
-    <string name="ok">Ok</string>
-    <string name="delete">Delete</string>
     <string name="app_name">Vivitar</string>
-    <string name="action_settings">Settings</string>
     <string name="can_not_use_BLE">Can not use BLE in your phone, please use audio jack to sync.</string>
-    <string name="title_activity_mainss">MainActivity</string>
-    <string name="hello_world">Hello world!</string>
     <string name="title_activity_user_details">UserDetails</string>
     <string name="take_photo">Take Photo</string>
     <string name="choose_photo">Choose Photo</string>
@@ -31,24 +26,16 @@
     <string name="OCT">OCT</string>
     <string name="NOV">NOV</string>
     <string name="DEC">DEC</string>
-    <string name="index_title_innofit">Vivitar</string>
     <string name="index_weight">Weight</string>
     <string name="user_details_p_00">My Profile</string>
-    <string name="title_activity_info">InfoActivity</string>
     <string name="title_activity_user_details_table">UserDetailsTableActivity</string>
     <string name="tv_danwei_kg">Kg</string>
     <string name="No_records">No records</string>
-    <string name="p_00_tv1">P-00</string>
-    <string name="_tv2">(</string>
     <string name="user1_info_dialog">user1</string>
     <string name="user_details_hint">user</string>
-    <string name="_info_dialog">)</string>
     <string name="male_info_dialog">Male</string>
     <string name="_33s_info_dialog">33s</string>
     <string name="_175cm_info_dialog">175cm</string>
-    <string name="project_info_dialog">Project</string>
-    <string name="results_info_dialog">Results</string>
-    <string name="unit_info_dialog">Unit</string>
     <string name="changes_user_details">changes</string>
     <string name="name_user_details">Name</string>
     <string name="sex_user_details">Gender</string>
@@ -62,11 +49,9 @@
     <string name="goal_weight_value">55</string>
     <string name="username_toast_tip">Please enter a user name</string>
     <string name="user_title">User</string>
-    <string name="about_left">About</string>
     <string name="setting_left">Setting</string>
     <string name="user_left">User</string>
     <string name="home_left">Home</string>
-    <string name="innofit_left_title">Vivitar</string>
     <string name="about_tv_top2_list1">Manufacturer:JoyElectronic(Zhuhai)Co,Ltd.</string>
     <string name="about_tv_top2_list2">Tel:+867567683628</string>
     <string name="about_tv_top2_list4">E-mail:joyelectronics@hotmail.com</string>
@@ -103,7 +88,6 @@
     <string name="in_i">(inches)</string>
     
     <string name="unit">Unit</string>
-    <string name="save_success">Save success</string>
     <string name="add">Add</string>
     <string name="title_activity_my_profile">MyProfile</string>
     <string name="us">US</string>

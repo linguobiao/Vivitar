@@ -287,7 +287,7 @@ public class MyProfile extends Activity {
 		image_head.setDrawingCacheEnabled(true);
 
 		if (name_str == null || name_str.equals("")) {
-			Toast.makeText(MyProfile.this, "Input  can not be empty", Toast.LENGTH_SHORT).show();
+			Toast.makeText(MyProfile.this, getString(R.string.female_user_details), Toast.LENGTH_SHORT).show();
 		} else {
 			if (age_str == null || age_str.equals("")) {
 				Toast.makeText(MyProfile.this, "Input  can not be empty", Toast.LENGTH_SHORT).show();

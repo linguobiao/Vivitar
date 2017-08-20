@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="20dp"
         android:paddingTop="20dp"
-        android:text="Weight"
+        android:text="@string/index_weight"
         android:textColor="@android:color/black" />
 
     <com.gzgamut.vivitar.view.MyTextView

@@ -42,6 +42,7 @@ import android.widget.Toast;
 import com.gzgamut.vivitar.R;
 import com.gzgamut.vivitar.adapter.HomeAdapter;
 import com.gzgamut.vivitar.adapter.UserAdapter;
+import com.gzgamut.vivitar.been.Event;
 import com.gzgamut.vivitar.been.Info;
 import com.gzgamut.vivitar.been.User;
 import com.gzgamut.vivitar.been.Value;
@@ -52,7 +53,11 @@ import com.gzgamut.vivitar.helper.CalendarHelper;
 import com.gzgamut.vivitar.helper.ParserHelper;
 import com.gzgamut.vivitar.helper.ShowValueHelper;
 import com.gzgamut.vivitar.helper.SyncHelper;
+import com.gzgamut.vivitar.logger.Logger;
 import com.gzgamut.vivitar.service.InnofitService;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
 
 public class MainActivity extends Activity {
 
@@ -89,9 +94,11 @@ public class MainActivity extends Activity {
 				}
 				if (dialogNoUser != null) {
 					dialogNoUser.dismiss();
+					isShowDialog = false;
 				}
 				if (dialog != null) {
 					dialog.dismiss();
+					isShowDialog = false;
 				}
 
 			}
@@ -111,6 +118,7 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		EventBus.getDefault().register(this);
 		initUI();
 		Value[0] = 0;
 		Value[1] = 0;
@@ -339,6 +347,7 @@ public class MainActivity extends Activity {
 				Judge = true;
 				dialog.dismiss();
 				dialog = null;
+				isShowDialog = false;
 				text_weight.setText("00.0");
 				text_BMI.setText("00.0");
 				state = Global.TYPE_RECEIVE_DATA_NO;
@@ -346,6 +355,7 @@ public class MainActivity extends Activity {
 			case R.id.iv_close_dialog:
 				dialogNoUser.dismiss();
 				dialogNoUser = null;
+				isShowDialog = false;
 				text_weight.setText("00.0");
 				text_BMI.setText("00.0");
 				state = Global.TYPE_RECEIVE_DATA_NO;
@@ -399,6 +409,7 @@ public class MainActivity extends Activity {
 
 		this.unbindService(myServiceConnection);
 		this.unregisterReceiver(myBLEBroadcastReceiver);
+		EventBus.getDefault().unregister(this);
 	}
 
 	@Override
@@ -415,130 +426,131 @@ public class MainActivity extends Activity {
 
 	private Info info;
 
-	/**
-	 * 处理收到的数据
-	 * 
-	 * @param value
-	 */
-	private void receiveScales(byte[] value, Calendar data) {
-
-		if (value[0] != Global.TYPE_RECEIVE_DATA_OK) {
-			Value[0] = 0;
-			Value[1] = 0;
-		}
-
-		if (value != null && date_query != null) {
-			info = ParserHelper.parseScales(value, data);
-
-			if (info.getWeight() == 0) {
-				text_weight.setText("00.0");
-				text_BMI.setText("00.0");
-			}
-			if (info != null) {
-				// 获取传过来的是那个用户
-				profileID = info.getpUser();
-				if (profileID == -1) {
-					// 体重秤
-					if (dialogNoUser == null) {
-
-						if (Judge == true) {
-							Judge = false;
-							dialogNoUser = new AlertDialog.Builder(MainActivity.this).show();
-							dialogNoUser.setContentView(R.layout.choose_user);
-							ListView lv_choose_user = (ListView) dialogNoUser.findViewById(R.id.lv_choose_user);
-							userList = new ArrayList<User>();
-							// 查询数据库
-							userList = queryUser(context);
-
-							UserAdapter userAdapter = new UserAdapter(getApplicationContext(), userList);
-
-							lv_choose_user.setAdapter(userAdapter);
-							userAdapter.notifyDataSetChanged();
-							ImageView iv_close_dialog = (ImageView) dialogNoUser.findViewById(R.id.iv_close_dialog);
-
-							iv_close_dialog.setOnClickListener(myOnClickListener);
-
-							lv_choose_user.setOnItemClickListener(new OnItemClickListener() {
-								@Override
-								public void onItemClick(AdapterView<?> arg0, View arg1, int positiong, long arg3) {
-									int i = userList.get(positiong).getUserId();
-									Judge = true;
-									dialogNoUser.dismiss();
-									dialogNoUser = null;
-									showUserDiao(i, info, dialog);
-								}
-							});
-
-						}
-					}
-				} else {
-					// 脂肪秤
-					String bmiStr = Global.df_double_2.format(info.getWeight() / ((height * height) / 10000));
-					bmiStr = bmiStr.replaceAll(",", ".");
-					double bmi = Double.parseDouble(bmiStr);
-					info.setBmi(bmi);
-
-					Log.i("vivitar", "Value[0] =" + Value[0] + "----" + Value[1] + "===");
-					if (Value[0] != Value[1] || value[0] != Global.TYPE_RECEIVE_DATA_OK) {
-						if (sharedPreferences.getString(Global.UNIT, "").equals(Global.UNIT_LB)) {
-							double f1 = CalculateHelper.decimal(CalculateHelper.kgToLbs(info.getWeight()));
-							text_weight.setText(String.valueOf(f1));
-
-						} else {
-							text_weight.setText(String.valueOf(info.getWeight()));
-						}
-						text_BMI.setText(String.valueOf(bmi));
-					}
-					// 判斷是否穩定
-					if (value[0] == Global.TYPE_RECEIVE_DATA_OK && state != Global.TYPE_RECEIVE_DATA_OK) {
-						if (Value[0] == 0) {
-							Value[0] = info.getWeight();
-						} else {
-							Value[1] = info.getWeight();
-						}
-
-						if (Value[0] != Value[1]) {
-							state = Global.TYPE_RECEIVE_DATA_OK;
-							mService.disconnect();
-							if (dialogNoUser == null) {
-								if (Judge == true) {
-									Judge = false;
-									dialogNoUser = new AlertDialog.Builder(MainActivity.this).show();
-
-									dialogNoUser.setContentView(R.layout.choose_user);
-									ListView lv_choose_user = (ListView) dialogNoUser.findViewById(R.id.lv_choose_user);
-									userList = new ArrayList<User>();
-									// 查询数据库
-									userList = queryUser(context);
-
-									UserAdapter userAdapter = new UserAdapter(getApplicationContext(), userList);
-									lv_choose_user.setAdapter(userAdapter);
-									userAdapter.notifyDataSetChanged();
-
-									ImageView iv_close_dialog = (ImageView) dialogNoUser.findViewById(R.id.iv_close_dialog);
-									iv_close_dialog.setOnClickListener(myOnClickListener);
-									lv_choose_user.setOnItemClickListener(new OnItemClickListener() {
-
-										@Override
-										public void onItemClick(AdapterView<?> arg0, View arg1, int positiong, long arg3) {
-											int i = userList.get(positiong).getUserId();
-											dialogNoUser.dismiss();
-											dialogNoUser = null;
-											showUserDiao(i, info, dialog);
-										}
-									});
-
-								}
-							}
-						}
-
-					}
-
-				}
-
-			}
-		}
-	}
+//	/**
+//	 * 处理收到的数据
+//	 *
+//	 * @param value
+//	 */
+//	private void receiveScales(byte[] value, Calendar data) {
+//
+//		if (value[0] != Global.TYPE_RECEIVE_DATA_OK) {
+//			Value[0] = 0;
+//			Value[1] = 0;
+//		}
+//
+//		if (value != null && date_query != null) {
+//			info = ParserHelper.parseScales(value, data);
+//
+//			if (info.getWeight() == 0) {
+//				text_weight.setText("00.0");
+//				text_BMI.setText("00.0");
+//			}
+//			if (info != null) {
+//				// 获取传过来的是那个用户
+//				profileID = info.getpUser();
+//				Logger.e("profileID:" + profileID);
+//				if (profileID == -1) {
+//					// 体重秤
+//					if (dialogNoUser == null) {
+//						Logger.e("Judge:" + Judge);
+//						if (Judge == true) {
+//							Judge = false;
+//							dialogNoUser = new AlertDialog.Builder(MainActivity.this).show();
+//							dialogNoUser.setContentView(R.layout.choose_user);
+//							ListView lv_choose_user = (ListView) dialogNoUser.findViewById(R.id.lv_choose_user);
+//							userList = new ArrayList<User>();
+//							// 查询数据库
+//							userList = queryUser(context);
+//
+//							UserAdapter userAdapter = new UserAdapter(getApplicationContext(), userList);
+//
+//							lv_choose_user.setAdapter(userAdapter);
+//							userAdapter.notifyDataSetChanged();
+//							ImageView iv_close_dialog = (ImageView) dialogNoUser.findViewById(R.id.iv_close_dialog);
+//
+//							iv_close_dialog.setOnClickListener(myOnClickListener);
+//
+//							lv_choose_user.setOnItemClickListener(new OnItemClickListener() {
+//								@Override
+//								public void onItemClick(AdapterView<?> arg0, View arg1, int positiong, long arg3) {
+//									int i = userList.get(positiong).getUserId();
+//									Judge = true;
+//									dialogNoUser.dismiss();
+//									dialogNoUser = null;
+//									showUserDiao(i, info, dialog);
+//								}
+//							});
+//
+//						}
+//					}
+//				} else {
+//					// 脂肪秤
+//					String bmiStr = Global.df_double_2.format(info.getWeight() / ((height * height) / 10000));
+//					bmiStr = bmiStr.replaceAll(",", ".");
+//					double bmi = Double.parseDouble(bmiStr);
+//					info.setBmi(bmi);
+//
+//					Log.i("vivitar", "Value[0] =" + Value[0] + "----" + Value[1] + "===");
+//					if (Value[0] != Value[1] || value[0] != Global.TYPE_RECEIVE_DATA_OK) {
+//						if (sharedPreferences.getString(Global.UNIT, "").equals(Global.UNIT_LB)) {
+//							double f1 = CalculateHelper.decimal(CalculateHelper.kgToLbs(info.getWeight()));
+//							text_weight.setText(String.valueOf(f1));
+//
+//						} else {
+//							text_weight.setText(String.valueOf(info.getWeight()));
+//						}
+//						text_BMI.setText(String.valueOf(bmi));
+//					}
+//					// 判斷是否穩定
+//					if (value[0] == Global.TYPE_RECEIVE_DATA_OK && state != Global.TYPE_RECEIVE_DATA_OK) {
+//						if (Value[0] == 0) {
+//							Value[0] = info.getWeight();
+//						} else {
+//							Value[1] = info.getWeight();
+//						}
+//
+//						if (Value[0] != Value[1]) {
+//							state = Global.TYPE_RECEIVE_DATA_OK;
+//							mService.disconnect();
+//							if (dialogNoUser == null) {
+//								if (Judge == true) {
+//									Judge = false;
+//									dialogNoUser = new AlertDialog.Builder(MainActivity.this).show();
+//
+//									dialogNoUser.setContentView(R.layout.choose_user);
+//									ListView lv_choose_user = (ListView) dialogNoUser.findViewById(R.id.lv_choose_user);
+//									userList = new ArrayList<User>();
+//									// 查询数据库
+//									userList = queryUser(context);
+//
+//									UserAdapter userAdapter = new UserAdapter(getApplicationContext(), userList);
+//									lv_choose_user.setAdapter(userAdapter);
+//									userAdapter.notifyDataSetChanged();
+//
+//									ImageView iv_close_dialog = (ImageView) dialogNoUser.findViewById(R.id.iv_close_dialog);
+//									iv_close_dialog.setOnClickListener(myOnClickListener);
+//									lv_choose_user.setOnItemClickListener(new OnItemClickListener() {
+//
+//										@Override
+//										public void onItemClick(AdapterView<?> arg0, View arg1, int positiong, long arg3) {
+//											int i = userList.get(positiong).getUserId();
+//											dialogNoUser.dismiss();
+//											dialogNoUser = null;
+//											showUserDiao(i, info, dialog);
+//										}
+//									});
+//
+//								}
+//							}
+//						}
+//
+//					}
+//
+//				}
+//
+//			}
+//		}
+//	}
 
 	protected void showUserDiao(final int i, Info info2, AlertDialog dialog2) {
 
@@ -611,8 +623,6 @@ public class MainActivity extends Activity {
 
 	/**
 	 * 保存电子称数据
-	 * 
-	 * @param value
 	 */
 	public void saveInfo(int profileID, Info info, Calendar calendar) {
 		if (info != null) {
@@ -773,4 +783,84 @@ public class MainActivity extends Activity {
 	HomeAdapter homeAdapter;
 	private AlertDialog dialog, dialogNoUser;
 	private TextView tv_danwei_kg;
+
+	@Subscribe
+	public void onEventMainThread(Event event) {
+		if (Event.EVENT_SYNC_DATA == event.getEventType() ||Event.EVENT_SYNC_DATA_LIVE == event.getEventType()) {
+
+		}
+	}
+
+	private boolean isShowDialog = false;
+	private boolean isRetry = false;
+
+	/**
+	 * 处理收到的数据
+	 *
+	 * @param value
+	 */
+	private void receiveScales(byte[] value, Calendar data) {
+
+		if (value == null || date_query == null) return;
+		if (value[0] == Global.TYPE_RECEIVE_DATA_NO) isRetry = true;
+		info = ParserHelper.parseScales(value, data);
+		if (info == null) return;
+		if (info.getWeight() == 0) {
+			text_weight.setText("00.0");
+			text_BMI.setText("00.0");
+		}
+		// 获取传过来的是那个用户
+		profileID = info.getpUser();
+		if (value[0] == Global.TYPE_RECEIVE_DATA_OK && isRetry) {
+
+			if (sharedPreferences.getString(Global.UNIT, "").equals(Global.UNIT_LB)) {
+				double f1 = CalculateHelper.decimal(CalculateHelper.kgToLbs(info.getWeight()));
+				text_weight.setText(String.valueOf(f1));
+			} else {
+				text_weight.setText(String.valueOf(info.getWeight()));
+			}
+			// 脂肪秤
+			String bmiStr = Global.df_double_2.format(info.getWeight() / ((height * height) / 10000));
+			bmiStr = bmiStr.replaceAll(",", ".");
+			double bmi = Double.parseDouble(bmiStr);
+			info.setBmi(bmi);
+			text_BMI.setText(String.valueOf(bmi));
+
+			// 体重秤
+			if (dialogNoUser == null || !dialogNoUser.isShowing()) {
+				if (dialog != null) {
+					dialog.dismiss();
+					dialog = null;
+				}
+				isRetry = false;
+				isShowDialog = true;
+				dialogNoUser = new AlertDialog.Builder(MainActivity.this).show();
+				dialogNoUser.setContentView(R.layout.choose_user);
+				ListView lv_choose_user = (ListView) dialogNoUser.findViewById(R.id.lv_choose_user);
+				userList = new ArrayList<User>();
+				// 查询数据库
+				userList = queryUser(context);
+
+				UserAdapter userAdapter = new UserAdapter(getApplicationContext(), userList);
+
+				lv_choose_user.setAdapter(userAdapter);
+				userAdapter.notifyDataSetChanged();
+				ImageView iv_close_dialog = (ImageView) dialogNoUser.findViewById(R.id.iv_close_dialog);
+
+				iv_close_dialog.setOnClickListener(myOnClickListener);
+
+				lv_choose_user.setOnItemClickListener(new OnItemClickListener() {
+					@Override
+					public void onItemClick(AdapterView<?> arg0, View arg1, int positiong, long arg3) {
+						int i = userList.get(positiong).getUserId();
+						Judge = true;
+						dialogNoUser.dismiss();
+						dialogNoUser = null;
+						isShowDialog = false;
+						showUserDiao(i, info, dialog);
+					}
+				});
+			}
+		}
+	}
 }

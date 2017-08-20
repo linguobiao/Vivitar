@@ -142,9 +142,9 @@ public class HomeAdapter extends BaseAdapter {
 		//
 		holder.text_name.setText(user.getUsername());
 		if (user.getSex() == Global.TYPE_SEX_MALE) {
-			holder.text_sex.setText("Male");
+			holder.text_sex.setText(mContext.getString(R.string.male_user_details));
 		} else {
-			holder.text_sex.setText("Female");
+			holder.text_sex.setText(mContext.getString(R.string.female_user_details));
 		}
 		Bitmap head = user.getHead();
 		if (head != null) {
