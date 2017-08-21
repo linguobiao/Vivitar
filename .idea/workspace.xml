@@ -10,469 +10,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30257509-36d4-4db6-a627-d36a7a49b972" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rxandroid_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/rxjava_1_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sdk_2_7_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keystore.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/guoou.jks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/been/Event.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/global/ViApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/AndroidLogTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LogLevel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LogTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/Logger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LoggerPrinter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/Printer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/Settings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vivitar/src/main/res/values-es/array_user.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/generated/source/buildConfig/release/com/inqbarna/tablefixheaders/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/generated/source/r/release/com/inqbarna/tablefixheaders/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/default/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/bundles/default/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/Recycler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/TableFixHeaders$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/TableFixHeaders$Flinger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/TableFixHeaders$TableAdapterDataSetObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/TableFixHeaders.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/adapters/BaseTableAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/classes/release/com/inqbarna/tablefixheaders/adapters/TableAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental-safeguard/release/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/buildConfig/androidTest/debug/com/gzgamut/vivitar/test/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/buildConfig/debug/com/gzgamut/vivitar/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/android/support/compat/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/android/support/v4/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/com/gzgamut/vivitar/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/generated/source/r/debug/com/inqbarna/tablefixheaders/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/multi/values-1280x720.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/multi/values-1920x1080.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/multi/values-480x320.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/multi/values-w820dp-v13.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/multi/values.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/anim.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/drawable-hdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/drawable.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/layout.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/blame/res/debug/single/menu.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/android/support/compat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/android/support/coreui/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/android/support/coreutils/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/android/support/fragment/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/android/support/mediacompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/android/support/v4/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/adapter/ChartAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/adapter/ChartAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/adapter/HomeAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/adapter/HomeAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/adapter/UserAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/adapter/UserAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/been/Chart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/been/Info.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/been/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/been/Value.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/database/DatabaseAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/database/DatabaseOpenHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/database/DatabaseProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/global/Global.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/helper/CalculateHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/helper/CalendarHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/helper/ChartHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/helper/ParserHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/helper/ShowValueHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/helper/SyncHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/AboutActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/AboutActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/AboutActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/ChartActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/ChartActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/ChartActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/ChartActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/ChartActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile$3$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/MyProfile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/SettingActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/SettingActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/SettingActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserActivity$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetails.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$FamilyNexusAdapter$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$FamilyNexusAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$FamilyNexusAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$Nexus.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity$NexusTypes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/UserDetailsTableActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/Welcome$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/main/Welcome.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/service/InnofitService$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/service/InnofitService$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/service/InnofitService$LocalBinder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/service/InnofitService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/view/CircleImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/view/MyCircleImageView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/view/MySeekBar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/view/MyTextView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/gzgamut/vivitar/view/MyViewFlipper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/inqbarna/tablefixheaders/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/inqbarna/tablefixheaders/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/inqbarna/tablefixheaders/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/inqbarna/tablefixheaders/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/classes/debug/com/inqbarna/tablefixheaders/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental-safeguard/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/compileDebugAndroidTestAidl/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merged.dir/values-1280x720/values-1280x720.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merged.dir/values-1920x1080/values-1920x1080.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merged.dir/values-480x320/values-480x320.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/packageDebug/zip-cache/P8tiYYEGObKe_HwJGT_+8vw9lf4=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/packageDebug/zip-cache/SqPGtf+D5LZcQEdnCEP0mpjYqY0=" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/achartengine-1.1.0_70fe42f790a029932803a80ae2f20faef6d99714.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/classes_737152d9b7962ea582ada18dc3c55c5eceb30912.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/classes_77baa4ea694020c0087ae98428b18017d54c67ce.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/classes_87db66f9f7a62570b435da720962a38b1ef72518.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/classes_ac545801cafb6e0c269c0a69d2c3794d667fb12e.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/classes_d298c6d54cd8a06b2f6432d307b478e72feeace7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/classes_e9b6e3a21c4b32f9e33bee8b6ce2b6005bcc7345.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/classes_ec5684f2d86f19e1c6658ec0a5fad25ede689c6f.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/debug_8c7ffe6010f3d93a398fb9bdd505dd62dfc57fd8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_1111f304f3a5063fc144bb4a60a147b08f78d422.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/anim/my_rotate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/anim/pull_in_left.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/anim/slide_left_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/anim/slide_left_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/anim/slide_right_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/anim/slide_right_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-hdpi/background_black_list_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/bg_backgroud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/btn_blue_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/first_blue_tooth_true.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/first_dialog_btn_delete_sel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/first_user_pop_cancle_sel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/first_userpop_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/first_userpop_save_sel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/image_logo_about.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xhdpi/logo_innofit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/button_chart_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/backgrond_username.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_about_we_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_about_we_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_all.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_blue_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_bottom_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_dw_setting_.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_fill_in_user_pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_goalweight_dialog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_input.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_list_head_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_loadingpage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_midd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_midd_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_month.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_top_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_user_data_input.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/background_username.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/bckground_index.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/btn_selected_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/btn_selected_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_chart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_chart_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_chart_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_email_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_list_but.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_mf_no.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_mf_yes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_save_blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_save_unit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/button_seek.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/first_dialog_btn_delete_selector.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_about_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_black_interval.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_bluetooth_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_carmer_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_chart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_dw_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_dw_unselcted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_head.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_head_big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_home_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_list_item_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_logo_about2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_paging_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_paging_unselecte.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_progress.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_settiong_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_spinner_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_table_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_table_long.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_table_long_v.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_table_short.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_user1_ico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/image_user_choice_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/logo_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable-xxhdpi/main_btn_right_sel.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/bg_table_color1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/bg_table_color2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/bg_table_family.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/bg_table_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/innofit_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/item_table1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/item_table1_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/item_table_header_first.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/my_rotate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/seek_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/separator_table.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/separator_table_first.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/separator_table_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/separator_table_header_first.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/shadow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/shadow_bottom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/shadow_left.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/shadow_right.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/shadow_top.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/drawable/user_item_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/about.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/activity_chart.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/activity_welcome.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/auser_details_table.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/choose_user.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/dialog_pic.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/goal_weight_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/info_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/innofit_left.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item_table.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item_table_family.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item_table_first.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item_table_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/item_table_header_first.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/my_profile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/setting.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/slide_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/user.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/user_details.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/user_details_table.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/user_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/view_checked.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/view_item_chart.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/layout/view_spinner_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/menu/info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/menu/mainss.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/menu/my_profile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/menu/user_details.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/menu/user_details_table.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/values-1280x720/values-1280x720.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/values-1920x1080/values-1920x1080.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/values-480x320/values-480x320.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/merged/debug/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/res/resources-debug.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/symbols/debug/R.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/outputs/apk/vivitar-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/ChartFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/GraphicalActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/GraphicalView$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/GraphicalView$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/GraphicalView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/ITouchHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/TouchHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/TouchHandlerOld.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/AbstractChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/BarChart$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/BarChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/BubbleChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/ClickableArea.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/CombinedXYChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/CubicLineChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/DialChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/DoughnutChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/LineChart$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/LineChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/PieChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/PieMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/PieSegment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/PointStyle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/RangeBarChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/RangeStackedBarChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/RoundChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/ScatterChart$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/ScatterChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/TimeChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/chart/XYChart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/CategorySeries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/MultipleCategorySeries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/Point.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/RangeCategorySeries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/SeriesSelection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/TimeSeries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/XYMultipleSeriesDataset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/XYSeries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/model/XYValueSeries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/BasicStroke.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/DefaultRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/DialRenderer$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/DialRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/SimpleSeriesRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/XYMultipleSeriesRenderer$Orientation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/XYMultipleSeriesRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/XYSeriesRenderer$FillOutsideLine$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/XYSeriesRenderer$FillOutsideLine.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/renderer/XYSeriesRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/tools/AbstractTool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/tools/FitZoom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/tools/Pan.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/tools/PanListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/tools/Zoom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/tools/ZoomEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/tools/ZoomListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/util/IndexXYMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/util/MathHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/achartengine-1.1.0.jar_3n2jmdzhvoabco45lyxqtp9oc/org/achartengine/util/XYEntry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/Recycler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/TableFixHeaders$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/TableFixHeaders$Flinger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/TableFixHeaders$TableAdapterDataSetObserver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/TableFixHeaders.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/adapters/BaseTableAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/build/tmp/expandedArchives/classes.jar_5e1v2pzpuzugfxun6sxt7ekcz/com/inqbarna/tablefixheaders/adapters/TableAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/anim/my_rotate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/drawable/my_rotate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/drawable/separator_table.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/menu/info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/menu/mainss.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/menu/my_profile.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/menu/user_details.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vivitar/src/main/res/menu/user_details_table.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_library_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_library_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_library_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_library_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/build.gradle" afterPath="$PROJECT_DIR$/vivitar/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/adapter/HomeAdapter.java" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/adapter/HomeAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/global/Global.java" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/global/Global.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/main/MainActivity.java" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/main/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/main/MyProfile.java" afterPath="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/main/MyProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/res/layout/goal_weight_dialog.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/res/layout/goal_weight_dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/res/layout/info_dialog.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/res/layout/info_dialog.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/res/layout/item.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/res/layout/item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/res/layout/slide_item.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/res/layout/slide_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/res/layout/view_item_chart.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/res/layout/view_item_chart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/res/values/strings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/vivitar/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/vivitar/src/main/res/values-es/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/.gitignore" afterPath="$PROJECT_DIR$/vivitar/.gitignore" />
     </list>
     <list id="5f160c3e-28cd-41dc-841c-8e5dc169cbd7" name="New changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/eventbus_3_0_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_vivitar_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vivitar/vivitar.iml" afterPath="$PROJECT_DIR$/vivitar/vivitar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" afterPath="$PROJECT_DIR$/library/build/outputs/aar/library-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/library/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
     </list>
     <ignored path="Vivitar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -500,10 +60,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vivitar/src/main/res/values-es/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="20">
               <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="46" />
               <folding />
             </state>
@@ -520,11 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="array_user.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="array_user.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vivitar/src/main/res/values-es/array_user.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggerPrinter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LoggerPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -562,16 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5120">
               <caret line="289" column="65" selection-start-line="289" selection-start-column="65" selection-end-line="289" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/adapter/HomeAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2360">
-              <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -3217,7 +2777,6 @@
       <list>
         <option value="$PROJECT_DIR$/library/build.gradle" />
         <option value="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/helper/ToastHelper.java" />
-        <option value="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LoggerPrinter.java" />
         <option value="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/global/Global.java" />
         <option value="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/been/Event.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -3235,6 +2794,7 @@
         <option value="$PROJECT_DIR$/vivitar/build.gradle" />
         <option value="$PROJECT_DIR$/vivitar/src/main/res/values-es/strings.xml" />
         <option value="$PROJECT_DIR$/vivitar/src/main/res/values-es/array_user.xml" />
+        <option value="$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LoggerPrinter.java" />
       </list>
     </option>
   </component>
@@ -3269,11 +2829,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -3307,8 +2866,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="outputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vivitar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="outputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3805,8 +3431,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5726496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62222224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46495727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4905983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46495727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -3877,13 +3503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LogTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -3965,7 +3584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4100,7 +3718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="197" column="32" selection-start-line="197" selection-start-column="32" selection-end-line="197" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4135,7 +3752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1233">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4143,7 +3759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2360">
           <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4200,18 +3815,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vivitar/src/main/res/values-es/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vivitar/src/main/res/values-es/array_user.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vivitar/src/main/java/com/gzgamut/vivitar/logger/LoggerPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vivitar/src/main/res/values-es/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="46" />
           <folding />
         </state>
       </provider>
