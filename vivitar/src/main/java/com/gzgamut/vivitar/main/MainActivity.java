@@ -104,8 +104,8 @@ public class MainActivity extends Activity {
 			}
 			// dialog.isShowing()
 			dialog = null;
-			text_weight.setText("00.0");
-			text_BMI.setText("00.0");
+//			text_weight.setText("00.0");
+//			text_BMI.setText("00.0");
 			state = Global.TYPE_RECEIVE_DATA_NO;
 			initList(false);
 
@@ -348,16 +348,16 @@ public class MainActivity extends Activity {
 				dialog.dismiss();
 				dialog = null;
 				isShowDialog = false;
-				text_weight.setText("00.0");
-				text_BMI.setText("00.0");
+//				text_weight.setText("00.0");
+//				text_BMI.setText("00.0");
 				state = Global.TYPE_RECEIVE_DATA_NO;
 				break;
 			case R.id.iv_close_dialog:
 				dialogNoUser.dismiss();
 				dialogNoUser = null;
 				isShowDialog = false;
-				text_weight.setText("00.0");
-				text_BMI.setText("00.0");
+//				text_weight.setText("00.0");
+//				text_BMI.setText("00.0");
 				state = Global.TYPE_RECEIVE_DATA_NO;
 			default:
 				break;
@@ -809,22 +809,23 @@ public class MainActivity extends Activity {
 			text_weight.setText("00.0");
 			text_BMI.setText("00.0");
 		}
+		if (sharedPreferences.getString(Global.UNIT, "").equals(Global.UNIT_LB)) {
+			double f1 = CalculateHelper.decimal(CalculateHelper.kgToLbs(info.getWeight()));
+			text_weight.setText(String.valueOf(f1));
+		} else {
+			text_weight.setText(String.valueOf(info.getWeight()));
+		}
+
+		// 脂肪秤
+		String bmiStr = Global.df_double_2.format(info.getWeight() / ((height * height) / 10000));
+		bmiStr = bmiStr.replaceAll(",", ".");
+		double bmi = Double.parseDouble(bmiStr);
+		info.setBmi(bmi);
+		text_BMI.setText(String.valueOf(bmi));
+
 		// 获取传过来的是那个用户
 		profileID = info.getpUser();
 		if (value[0] == Global.TYPE_RECEIVE_DATA_OK && isRetry) {
-
-			if (sharedPreferences.getString(Global.UNIT, "").equals(Global.UNIT_LB)) {
-				double f1 = CalculateHelper.decimal(CalculateHelper.kgToLbs(info.getWeight()));
-				text_weight.setText(String.valueOf(f1));
-			} else {
-				text_weight.setText(String.valueOf(info.getWeight()));
-			}
-			// 脂肪秤
-			String bmiStr = Global.df_double_2.format(info.getWeight() / ((height * height) / 10000));
-			bmiStr = bmiStr.replaceAll(",", ".");
-			double bmi = Double.parseDouble(bmiStr);
-			info.setBmi(bmi);
-			text_BMI.setText(String.valueOf(bmi));
 
 			// 体重秤
 			if (dialogNoUser == null || !dialogNoUser.isShowing()) {
