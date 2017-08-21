@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gzgamut.vivitar"
+    android:versionCode="9"
+    android:versionName="1.2.9-debug" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 必选 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取网络状态 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络通信 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 获取设备信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取MAC地址 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 允许程序录制音频 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 可选 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" /> <!-- 获取logcat日志 -->
+    <application
+        android:name="com.gzgamut.vivitar.global.ViApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- 必选 -->
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="b0750352ca414a172191c3ad770ad8e4" >
+        </meta-data>
+
+        <activity android:name="com.gzgamut.vivitar.main.Welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gzgamut.vivitar.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.gzgamut.vivitar.main.SettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.gzgamut.vivitar.main.UserActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.gzgamut.vivitar.main.AboutActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service
+            android:name="com.gzgamut.vivitar.service.InnofitService"
+            android:enabled="true" >
+        </service>
+
+        <activity
+            android:name="com.gzgamut.vivitar.main.UserDetails"
+            android:label="@string/title_activity_user_details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.gzgamut.vivitar.main.ChartActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.gzgamut.vivitar.main.UserDetailsTableActivity"
+            android:label="@string/title_activity_user_details_table"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.gzgamut.vivitar.main.MyProfile"
+            android:label="@string/title_activity_my_profile"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

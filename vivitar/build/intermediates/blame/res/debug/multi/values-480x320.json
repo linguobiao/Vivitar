@@ -1,0 +1,216 @@
+[
+    {
+        "outputFile": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-480x320\\values-480x320.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 54,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 54,
+                        "endOffset": 258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 168,
+                    "endColumn": 55,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endColumn": 50,
+                    "endOffset": 270
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 50,
+                        "endOffset": 362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 275,
+                    "endColumn": 60,
+                    "endOffset": 331
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 628,
+                        "endColumn": 60,
+                        "endOffset": 684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 336,
+                    "endColumn": 64,
+                    "endOffset": 396
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 690,
+                        "endColumn": 64,
+                        "endOffset": 750
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 401,
+                    "endColumn": 59,
+                    "endOffset": 456
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 59,
+                        "endOffset": 423
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 461,
+                    "endColumn": 61,
+                    "endOffset": 518
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 565,
+                        "endColumn": 61,
+                        "endOffset": 622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 523,
+                    "endColumn": 68,
+                    "endOffset": 587
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 68,
+                        "endOffset": 559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 592,
+                    "endColumn": 64,
+                    "endOffset": 652
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 429,
+                        "endColumn": 64,
+                        "endOffset": 489
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 657,
+                    "endColumn": 50,
+                    "endOffset": 703
+                },
+                "from": {
+                    "file": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\values-480x320\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 50,
+                        "endOffset": 310
+                    }
+                }
+            }
+        ]
+    }
+]

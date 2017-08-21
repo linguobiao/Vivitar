@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>P-00(Usuario 1)</item>
+        <item>P-01(Usuario 2)</item>
+        <item>P-02(Usuario 3)</item>
+        <item>P-03(Usuario 4)</item>
+        <item>P-04(Usuario 5)</item>
+        <item>P-05(Usuario 6)</item>
+        <item>P-06(Usuario 7)</item>
+        <item>P-07(Usuario 8)</item>
+        <item>P-08(Usuario 9)</item>
+    </string-array>
+    <string name="APR">ABR.</string>
+    <string name="AUG">AGO.</string>
+    <string name="DEC">DIC.</string>
+    <string name="FEB">FEB.</string>
+    <string name="FRI">VIE.</string>
+    <string name="JAN">ENE.</string>
+    <string name="JUL">JUL.</string>
+    <string name="JUN">JUN.</string>
+    <string name="MAR">MAR.</string>
+    <string name="MAY">MAY.</string>
+    <string name="MON">LUN.</string>
+    <string name="NOV">NOV.</string>
+    <string name="No_records">Sin registros</string>
+    <string name="OCT">OCT.</string>
+    <string name="SAT">SÁB.</string>
+    <string name="SEP">SEP.</string>
+    <string name="SUN">DOM.</string>
+    <string name="THU">JUE.</string>
+    <string name="TUE">MAR.</string>
+    <string name="WED">MIÉ.</string>
+    <string name="_175_userdetaile">175</string>
+    <string name="_175cm">175cm</string>
+    <string name="_175cm_info_dialog">175cm</string>
+    <string name="_33_user_details">33</string>
+    <string name="_33s_info_dialog">33s</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="about">Acerca de</string>
+    <string name="about_tv_top2_list1">Fabricante: JoyElectronic(Zhuhai)Co, Ltd.</string>
+    <string name="about_tv_top2_list2">Tel:+867567683628</string>
+    <string name="about_tv_top2_list4">Correo electrónico:joyelectronics@hotmail.com</string>
+    <string name="about_tv_top3_list1">Desarrollador: Omesoft（Zhuhai）Co, Ltd.</string>
+    <string name="about_tv_top3_list2_left">Sitio web:</string>
+    <string name="about_tv_top3_list2_right">www.omesoft.com</string>
+    <string name="about_tv_top3_list3">Tel:+867566882315</string>
+    <string name="about_tv_top3_list4">Correo electrónico:services@omesoft.com</string>
+    <string name="add">Add</string>
+    <string name="age_user_details">Edad</string>
+    <string name="app_name">Vivitar</string>
+    <string name="back">Back</string>
+    <string name="bmi">BMI</string>
+    <string name="can_not_use_BLE">No se puede utilizar BLE en su teléfono. Use un conector de audio para realizar la sincronización.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="changes_user_details">cambios</string>
+    <string name="choose_photo">Seleccionar foto</string>
+    <string name="cm">cm</string>
+    <string name="cm_c">(cm)</string>
+    <string name="cm_kg">Kg</string>
+    <string name="cm_kg_k">(Kg)</string>
+    <string name="exit_ok">Aceptar</string>
+    <string name="exit_tip">Salir</string>
+    <string name="female_user_details">Femenino</string>
+    <string name="ft">ft</string>
+    <string name="goal_weight">Objetivo de peso</string>
+    <string name="goal_weight_value">55</string>
+    <string name="height_user_details">Altura</string>
+    <string name="home_left">Inicio</string>
+    <string name="in">in</string>
+    <string name="in_i">(inches)</string>
+    <string name="inch_lb">Lb</string>
+    <string name="inch_lb_l">(Libras)</string>
+    <string name="index_weight">Peso</string>
+    <string name="kg">Kg</string>
+    <string name="kuohao_left">(</string>
+    <string name="kuohao_right">)</string>
+    <string name="lb">Lb</string>
+    <string name="male_info_dialog">Masculino</string>
+    <string name="male_main">Masculino</string>
+    <string name="male_user_details">Masculino</string>
+    <string name="metric">Métrico</string>
+    <string name="name_user_details">Nombre</string>
+    <string name="p_00">P-00</string>
+    <string name="save">Guardar</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="setting">Configuración</string>
+    <string name="setting_left">Configuración</string>
+    <string name="sex_user_details">Género</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="take_photo">Tomar foto</string>
+    <string name="tip_no_user_keepOne">Al menos un usuario</string>
+    <string name="title_activity_my_profile">Mi perfil</string>
+    <string name="title_activity_user_details">Detalles de usuario</string>
+    <string name="title_activity_user_details_table">Actividad de tabla de detalles de usuario</string>
+    <string name="today_">"Hoy "</string>
+    <string name="tv_danwei_kg">Kg</string>
+    <string name="unit">unidad</string>
+    <string name="us">ESTADOS UNIDOS</string>
+    <string name="user1">usuario</string>
+    <string name="user1_info_dialog">Usuario 1</string>
+    <string name="user_details_hint">Usuario</string>
+    <string name="user_details_p_00">Mi perfil</string>
+    <string name="user_left">MANUAL</string>
+    <string name="user_title">MANUAL</string>
+    <string name="username_toast_tip">Introduzca un nombre de usuario</string>
+    <string name="whether_to_exit_">Presione Aceptar para cerrar la aplicación</string>
+    <string name="yesterday_">"Ayer "</string>
+    <string name="zearo">00.0</string>
+</resources>

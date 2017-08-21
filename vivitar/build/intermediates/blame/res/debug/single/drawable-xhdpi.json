@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\image_logo_about.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\image_logo_about.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bg_backgroud.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\bg_backgroud.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\first_userpop_save.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\first_userpop_save.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\first_blue_tooth_true.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\first_blue_tooth_true.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\first_dialog_btn_delete_sel.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\first_dialog_btn_delete_sel.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_innofit.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\logo_innofit.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\first_userpop_save_sel.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\first_userpop_save_sel.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\first_user_pop_cancle_sel.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\first_user_pop_cancle_sel.png"
+    },
+    {
+        "merged": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\btn_blue_selected.png",
+        "source": "E:\\AS\\other\\gamut\\Vivitar\\vivitar\\src\\main\\res\\drawable-xhdpi\\btn_blue_selected.png"
+    }
+]

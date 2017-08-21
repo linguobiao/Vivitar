@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/info_dialog_layout"
+    android:background="@drawable/bg_backgroud"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/info_dialog_layout_marginTop" >
+
+        <ImageView
+            android:id="@+id/user_head_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:contentDescription="@null"
+            android:padding="5dp" 
+            android:src="@drawable/image_head_big" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/user_head_title"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal" >
+
+
+
+                <TextView
+                    android:id="@+id/tv_user__dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/user1_info_dialog"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_gender__dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/male_info_dialog"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tv_age__dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/_33s_info_dialog"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tv_height__dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/_175cm_info_dialog"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/info_dialog_layout_gridlayout"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="8" >
+
+    
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
+                android:gravity="center_horizontal"
+                android:text="Weight" />
+
+            <TextView
+                android:id="@+id/tv_weight_dialog"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
+                android:gravity="center_horizontal"
+                android:text="0.0" />
+
+            <TextView
+                android:id="@+id/tv_unit_weight"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
+                android:gravity="center_horizontal"
+                android:text="Kg" />
+            <!--  -->
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
+                android:gravity="center_horizontal"
+                android:text="BMI" />
+
+            <TextView
+                android:id="@+id/tv_bmi_dialog"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
+                android:gravity="center_horizontal"
+                android:text="0.0" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
+                android:gravity="center_horizontal"
+                android:text="-" />
+
+
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/info_dialog_layout_save_detele"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/info_dialog_layout_save_detele_bottom"
+            android:layout_marginTop="@dimen/info_dialog_layout_save_detele_top" >
+
+            <ImageView
+                android:id="@+id/but_detele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                android:src="@drawable/first_dialog_btn_delete_selector" />
+
+            <Button
+                android:id="@+id/but_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/button_save_blue"
+                android:text="@string/save"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
