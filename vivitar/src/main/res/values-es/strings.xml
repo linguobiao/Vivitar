@@ -48,9 +48,9 @@
     <string name="_175_userdetaile">175</string>
     <string name="goal_weight_value">55</string>
     <string name="username_toast_tip">Introduzca un nombre de usuario</string>
-    <string name="user_title">MANUAL</string>
+    <string name="user_title">Usuario</string>
     <string name="setting_left">Configuración</string>
-    <string name="user_left">MANUAL</string>
+    <string name="user_left">Usuario</string>
     <string name="home_left">Inicio</string>
     <string name="about_tv_top2_list1">Fabricante: JoyElectronic(Zhuhai)Co, Ltd.</string>
     <string name="about_tv_top2_list2">Tel:+867567683628</string>
@@ -71,10 +71,10 @@
     <string name="male_main">Masculino</string>
     <string name="_175cm">175cm</string>
     <string name="zearo">00.0</string>
-    <string name="bmi">BMI</string>
+    <string name="bmi">indice de masa corporal</string>
     <string name="kuohao_right">)</string>
     <string name="user1">usuario</string>
-    <string name="back">Back</string>
+    <string name="back">Volver</string>
     <string name="setting">Configuración</string>
     <string name="save">Guardar</string>
     <string name="cm_kg">Kg</string>
@@ -88,7 +88,7 @@
     <string name="in_i">(inches)</string>
     
     <string name="unit">unidad</string>
-    <string name="add">Add</string>
+    <string name="add">Añadir</string>
     <string name="title_activity_my_profile">Mi perfil</string>
     <string name="us">ESTADOS UNIDOS</string>
     <string name="metric">Métrico</string>
@@ -96,4 +96,16 @@
     <string name="ft">ft</string>
     <string name="lb">Lb</string>
  <string name="tip_no_user_keepOne">Al menos un usuario</string>
+    <string name="settings_language">Idioma</string>
+
+    <string name="Month">Mes</string>
+    <string name="Quarter">Trimestre</string>
+    <string name="Half_year">A mitad de año</string>
+    <string name="Year">Año</string>
+    <string name="Time">Hora</string>
+    <string name="Weight_KG">Peso/KG</string>
+    <string name="Weight_LB">Peso/LB</string>
+    <string name="select_mail">Por favor, seleccione el software de correo</string>
+    <string name="English">Ingles</string>
+    <string name="Spanish">Español</string>
 </resources>

@@ -103,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
                 android:gravity="center_horizontal"
-                android:text="Weight" />
+                android:text="@string/index_weight" />
 
             <TextView
                 android:id="@+id/tv_weight_dialog"
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/info_dialog_layout_gridlayout_item"
                 android:gravity="center_horizontal"
-                android:text="BMI" />
+                android:text="@string/bmi" />
 
             <TextView
                 android:id="@+id/tv_bmi_dialog"

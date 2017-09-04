@@ -5,11 +5,13 @@
 
     <com.gzgamut.vivitar.view.MyTextView
         android:id="@+id/text_title"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp"
-        android:text="@string/index_weight"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="15dp"
+        android:text="@string/bmi"
+        android:gravity="center"
+        android:layout_marginLeft="-10dp"
         android:textColor="@android:color/black" />
 
     <com.gzgamut.vivitar.view.MyTextView

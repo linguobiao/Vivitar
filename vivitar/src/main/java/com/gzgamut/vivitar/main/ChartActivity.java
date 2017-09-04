@@ -82,7 +82,7 @@ public class ChartActivity extends Activity {
 				String SavePath = getSDCardPath() + "/AndyDemo/ScreenImage";
 				String filepath = SavePath + "/Screen_1.png";
 				Log.i("imagepath", "imagePath=" + filepath);
-				shareMsg(ChartActivity.this, "Please select the mail software",
+				shareMsg(ChartActivity.this, getString(R.string.select_mail),
 						"Weight Report from Bally", "", filepath);
 				break;
 			case R.id.image_back:
@@ -344,14 +344,14 @@ public class ChartActivity extends Activity {
 		chart_list = new ArrayList<Chart>();
 
 		Chart chart_weight = new Chart();
-		chart_weight.setTtile("Weight");
+		chart_weight.setTtile(getString(R.string.index_weight));
 
 		chart_list.add(chart_weight);
 		//
 
 		Chart chart_bmi = new Chart();
-		chart_bmi.setTtile("  BMI ");
-		chart_bmi.setUnit(" BMI");
+		chart_bmi.setTtile("  " + getString(R.string.bmi) + " ");
+//		chart_bmi.setUnit(" " + getString(R.string.bmi));
 		chart_list.add(chart_bmi);
 
 		ChartAdapter adapter = new ChartAdapter(getApplicationContext(),

@@ -45,7 +45,7 @@
 
             <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:orientation="vertical" >
@@ -54,7 +54,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:paddingTop="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
                     android:text="@string/index_weight"
                     android:textColor="@android:color/white"
                     android:textSize="18sp" />
@@ -69,7 +70,7 @@
                         android:id="@+id/text_weight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingTop="24dp"
+                        android:paddingTop="10dp"
                         android:text="@string/zearo"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />
@@ -86,30 +87,35 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
                 android:gravity="center_horizontal"
                 android:orientation="vertical" >
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="35dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:maxWidth="140dp"
+                    android:gravity="center"
                     android:text="@string/bmi"
+                    android:layout_gravity="center"
                     android:textColor="@android:color/white"
-                    android:textSize="18sp" />
+                    android:textSize="16dp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal" >
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
 
                     <TextView
                         android:id="@+id/text_BMI"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingTop="24dp"
+                        android:gravity="center"
+                        android:paddingTop="10dp"
                         android:text="@string/zearo"
                         android:textColor="@android:color/white"
                         android:textSize="20sp" />

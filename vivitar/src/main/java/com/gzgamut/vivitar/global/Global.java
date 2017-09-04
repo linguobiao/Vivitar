@@ -112,6 +112,11 @@ public class Global {
 	public static String UNIT_CMIN = "UNIT_CMIN";
 	public static String UNIT_CM = "cm";
 	public static String UNIT_IN = "in";
+
+	public static final String DEF_CM = "175";
+	public static final String DEF_IN = "5'7''";
+	public static final String DEF_KG = "55";
+	public static final String DEF_LB = "121.3";
 	// 判断是否第一次进入app
 	public static String APP_FRIST = "APP_FRIST";
 	public static String APP_ENTERED = "APP_ENTERED";

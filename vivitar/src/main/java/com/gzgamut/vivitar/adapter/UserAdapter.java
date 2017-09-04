@@ -90,9 +90,9 @@ public class UserAdapter extends BaseAdapter {
 
 			holder.tv_user.setText(userList.get(position).getUsername());
 			if (userList.get(position).getSex() == 0) {
-				holder.tv_gender.setText("Male");
+				holder.tv_gender.setText(mContext.getString(R.string.male_user_details));
 			} else {
-				holder.tv_gender.setText("Female");
+				holder.tv_gender.setText(mContext.getString(R.string.female_user_details));
 			}
 
 			holder.tv_age.setText(userList.get(position).getAge() + "");

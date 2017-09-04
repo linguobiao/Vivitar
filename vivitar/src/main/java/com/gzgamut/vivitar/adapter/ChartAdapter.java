@@ -10,9 +10,11 @@ import org.achartengine.renderer.XYMultipleSeriesRenderer;
 
 import com.gzgamut.vivitar.R;
 import com.gzgamut.vivitar.been.Chart;
+import com.gzgamut.vivitar.global.LanguageManager;
 import com.gzgamut.vivitar.helper.ChartHelper;
 
 import android.content.Context;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -82,6 +84,11 @@ public class ChartAdapter extends BaseAdapter {
 
 	private void setValue(ViewHolder holder, Chart chart, List<Double> valueList) {
 
+		if (LanguageManager.LOCALE_ES.equals(LanguageManager.getLanguage(mContext))) {
+			holder.text_title.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 8);
+		} else {
+			holder.text_title.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
+		}
 		holder.text_title.setText(chart.getTitle());
 		holder.text_unit.setText(chart.getUnit());
 		holder.layout_chart.removeAllViews();

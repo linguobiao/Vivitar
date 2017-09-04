@@ -136,7 +136,7 @@
             android:button="@null"
             android:gravity="center"
             android:saveEnabled="false"
-            android:text="Month"
+            android:text="@string/Month"
             android:textColor="@color/color_radio_uncheck"
             android:textSize="15sp" />
 
@@ -149,7 +149,7 @@
             android:button="@null"
             android:gravity="center"
             android:saveEnabled="false"
-            android:text="Quarter"
+            android:text="@string/Quarter"
             android:textColor="@color/color_radio_uncheck"
             android:textSize="15sp" />
 
@@ -162,7 +162,7 @@
             android:button="@null"
             android:gravity="center"
             android:saveEnabled="false"
-            android:text="Half-year"
+            android:text="@string/Half_year"
             android:textColor="@color/color_radio_uncheck"
             android:textSize="15sp" />
 
@@ -175,7 +175,7 @@
             android:button="@null"
             android:gravity="center"
             android:saveEnabled="false"
-            android:text="Year"
+            android:text="@string/Year"
             android:textColor="@color/color_radio_uncheck"
             android:textSize="15sp" />
     </RadioGroup>

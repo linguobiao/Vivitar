@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_loadingpage"
     android:orientation="vertical"
-    tools:context="com.gzgamut.vivitar.main.Welcome" >
+    tools:context="com.gzgamut.vivitar.main.WelcomeActivity" >
 
 
 

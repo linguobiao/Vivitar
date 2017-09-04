@@ -53,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_weight="1"
-                android:text="Time" />
+                android:text="@string/Time" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -102,7 +102,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_weight="1"
-                            android:text="Weight/Kg" />
+                            android:text="@string/Weight_KG" />
 
                         <ImageView
                             android:layout_width="70dp"
@@ -138,7 +138,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:layout_weight="1"
-                            android:text="BMI" />
+                            android:text="@string/bmi" />
 
                         <ImageView
                             android:layout_width="70dp"

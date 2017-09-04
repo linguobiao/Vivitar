@@ -745,6 +745,7 @@ public class MainActivity extends Activity {
 
 		list_home = (ListView) findViewById(R.id.list_home);
 		initList(true);
+
 	}
 
 	// 监听返回键，退出

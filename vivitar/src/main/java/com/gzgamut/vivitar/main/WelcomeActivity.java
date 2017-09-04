@@ -9,7 +9,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class Welcome extends Activity {
+public class WelcomeActivity extends Activity {
 	private SharedPreferences sharedPreferences;
 
 	@Override
@@ -26,11 +26,11 @@ public class Welcome extends Activity {
 			public void run() {
 				if (sharedPreferences.getString(Global.APP_FRIST, "").equals(
 						Global.APP_ENTERED)) {
-					Intent intent = new Intent(Welcome.this, MainActivity.class);
+					Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);
 					startActivity(intent);
 					finish();
 				} else {
-					Intent intent = new Intent(Welcome.this,
+					Intent intent = new Intent(WelcomeActivity.this,
 							SettingActivity.class);
 					startActivity(intent);
 					finish();

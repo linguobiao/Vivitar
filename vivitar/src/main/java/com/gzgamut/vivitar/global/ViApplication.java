@@ -24,6 +24,7 @@ public class ViApplication extends Application {
         Settings settings = Logger.init(Global.LOG_TAG);
         settings.logLevel(Global.DEBUG ? LogLevel.FULL : LogLevel.NONE);
         PgyCrashManager.register(this);
+        LanguageManager.initLanguage(this);
     }
 
     public static ViApplication getInstance() {

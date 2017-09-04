@@ -24,6 +24,7 @@ import android.widget.TextView;
 
 import com.gzgamut.vivitar.R;
 import com.gzgamut.vivitar.global.Global;
+import com.gzgamut.vivitar.global.LanguageManager;
 import com.gzgamut.vivitar.helper.ShowValueHelper;
 
 public class SettingActivity extends Activity {
@@ -38,7 +39,18 @@ public class SettingActivity extends Activity {
 		initUI();
 		// 判断是否第一次进入app
 		checkFirst();
+		initLanguageSelect();
+	}
 
+	private void initLanguageSelect() {
+		String locale = LanguageManager.getLanguage(this);
+		if (LanguageManager.LOCALE_ES.equals(locale)) {
+			iv_language_es.setBackgroundResource(R.drawable.btn_selected_selected);
+			iv_language_en.setBackgroundResource(R.drawable.btn_selected_normal);
+		} else {
+			iv_language_en.setBackgroundResource(R.drawable.btn_selected_selected);
+			iv_language_es.setBackgroundResource(R.drawable.btn_selected_normal);
+		}
 	}
 
 	private void checkFirst() {
@@ -105,6 +117,21 @@ public class SettingActivity extends Activity {
 				iv_unit_in.setBackgroundResource(R.drawable.btn_selected_normal);
 				break;
 
+			// 语言en
+			case R.id.iv_language_en:
+				LanguageManager.setLanguage(SettingActivity.this, LanguageManager.LOCALE_EN);
+				iv_language_en.setBackgroundResource(R.drawable.btn_selected_selected);
+				iv_language_es.setBackgroundResource(R.drawable.btn_selected_normal);
+				initLanguage();
+				break;
+			// 语言es
+			case R.id.iv_language_es:
+				LanguageManager.setLanguage(SettingActivity.this, LanguageManager.LOCALE_ES);
+				iv_language_es.setBackgroundResource(R.drawable.btn_selected_selected);
+				iv_language_en.setBackgroundResource(R.drawable.btn_selected_normal);
+				initLanguage();
+				break;
+
 			case R.id.but_save_unit:
 				if (sharedPreferences.getString(Global.UNIT_CMIN, "").equals("")) {
 					editor.putString(Global.UNIT_CMIN, Global.UNIT_CM);
@@ -115,7 +142,7 @@ public class SettingActivity extends Activity {
 					editor.putString(Global.UNIT, Global.UNIT_KG);
 					editor.commit();
 				}
-				Intent intent = new Intent(SettingActivity.this, MyProfile.class);
+				Intent intent = new Intent(SettingActivity.this, MyProfileActivity.class);
 				startActivity(intent);
 				finish();
 				break;
@@ -129,6 +156,17 @@ public class SettingActivity extends Activity {
 
 		}
 	};
+
+	private void initLanguage() {
+		((TextView)findViewById(R.id.tv_setting_title)).setText(getString(R.string.user_details_p_00));
+		((TextView)findViewById(R.id.tv_Lb_label)).setText(getString(R.string.inch_lb_l));
+		((TextView)findViewById(R.id.tv_unit)).setText(getString(R.string.unit));
+		((TextView)findViewById(R.id.tv_language)).setText(getString(R.string.settings_language));
+		((TextView)findViewById(R.id.tv_english)).setText(getString(R.string.English));
+		((TextView)findViewById(R.id.tv_spanish)).setText(getString(R.string.Spanish));
+		((Button)findViewById(R.id.but_save_unit)).setText(getString(R.string.save));
+
+	}
 
 	/**
 	 * 显示list对话框
@@ -188,6 +226,14 @@ public class SettingActivity extends Activity {
 		iv_unit_cm = (ImageView) findViewById(R.id.iv_unit_cm);
 		iv_unit_cm.setOnClickListener(myOnClickListener);
 
+		iv_language_en = (ImageView) findViewById(R.id.iv_language_en);
+		iv_language_en.setOnClickListener(myOnClickListener);
+
+		iv_language_es = (ImageView) findViewById(R.id.iv_language_es);
+		iv_language_es.setOnClickListener(myOnClickListener);
+
+
+
 		//
 		sharedPreferences = getSharedPreferences(SAVE_UNIT_NAME, SettingActivity.MODE_PRIVATE);
 		editor = sharedPreferences.edit();
@@ -237,7 +283,7 @@ public class SettingActivity extends Activity {
 	private ImageView image_list;
 	private TextView tv_setting_title;
 	private PopupWindow popupWindow;
-	private ImageView iv_unit_bl, iv_unit_kg, iv_unit_in, iv_unit_cm;
+	private ImageView iv_unit_bl, iv_unit_kg, iv_unit_in, iv_unit_cm, iv_language_en, iv_language_es;
 	private SharedPreferences sharedPreferences;
 	Editor editor = null;
 }

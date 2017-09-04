@@ -35,7 +35,7 @@ public class ChartHelper {
 	public static float POINT_SIZE = 0f;
 	public static int PADDING_SIZE = 10;
 	public static int TOP = 30;
-	public static int LEFT = 30;
+	public static int LEFT = 2;
 	public static int RIGHT = 80;
 	public static int BOTTOM = -30;
 	public static int LINE_WIDTH = 4;
@@ -46,7 +46,7 @@ public class ChartHelper {
 		TEXT_SIZE = densityDPI * 1 / 10;
 //		PADDING_SIZE = densityDPI * 5 / 80;
 		TOP = densityDPI * 1 / 10;
-		LEFT = densityDPI * 1 / 10;
+//		LEFT = densityDPI * 1 / 10;
 		RIGHT = densityDPI * 5 / 20;
 		BOTTOM = - densityDPI * 1 / 10 + densityDPI * 1 / 80;
 //		LINE_WIDTH = densityDPI * 1 / 120;

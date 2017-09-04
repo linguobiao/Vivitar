@@ -29,7 +29,7 @@
             android:value="b0750352ca414a172191c3ad770ad8e4" >
         </meta-data>
 
-        <activity android:name=".main.Welcome" >
+        <activity android:name=".main.WelcomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -59,7 +59,7 @@
             android:enabled="true" >
         </service>
         <activity
-            android:name=".main.UserDetails"
+            android:name=".main.UserDetailsActivity"
             android:label="@string/title_activity_user_details"
             android:screenOrientation="portrait" >
         </activity>
@@ -73,7 +73,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.gzgamut.vivitar.main.MyProfile"
+            android:name="com.gzgamut.vivitar.main.MyProfileActivity"
             android:label="@string/title_activity_my_profile"
             android:screenOrientation="portrait" >
         </activity>

@@ -1,7 +1,6 @@
 package com.gzgamut.vivitar.main;
 
 import java.io.File;
-import java.math.BigDecimal;
 
 import com.gzgamut.vivitar.R;
 import com.gzgamut.vivitar.been.User;
@@ -32,12 +31,11 @@ import android.view.View.OnClickListener;
 import android.view.View.OnKeyListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class UserDetails extends Activity {
+public class UserDetailsActivity extends Activity {
 	private int gender;
 	private int profileID = -1;
 	private int userid;
@@ -61,7 +59,7 @@ public class UserDetails extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.user_details);
-		context = UserDetails.this;
+		context = UserDetailsActivity.this;
 		initUI();
 		// 查询数据库中的用户信息
 		queryUserDetailes();
@@ -71,7 +69,7 @@ public class UserDetails extends Activity {
 		User user = new User();
 		Intent i = getIntent();
 		userid = i.getIntExtra(UserActivity.USER_ID, -1);
-		user = queryUser(UserDetails.this, userid);
+		user = queryUser(UserDetailsActivity.this, userid);
 
 		if (user != null) {
 			tv_username_head.setText(user.getUsername());
@@ -86,6 +84,7 @@ public class UserDetails extends Activity {
 				String apped = ia + "'" + ib + "''";
 				et_height.setText(apped);
 			} else {
+				et_height.setText(user.getHeight() + "");
 				et_height.setFilters(new InputFilter[] { new InputFilter.LengthFilter(3) });
 			}
 			// 年龄
@@ -128,8 +127,6 @@ public class UserDetails extends Activity {
 		iv_button_back.setOnClickListener(myOnClickListener);
 		Button iv_button_save = (Button) findViewById(R.id.iv_button_save);
 		iv_button_save.setOnClickListener(myOnClickListener);
-		ImageView iv_image_carmer = (ImageView) findViewById(R.id.iv_image_carmer);
-		iv_image_carmer.setOnClickListener(myOnClickListener);
 
 		but_sex_meal = (Button) findViewById(R.id.but_sex_meal);
 		but_sex_femeal = (Button) findViewById(R.id.but_sex_female);
@@ -166,7 +163,7 @@ public class UserDetails extends Activity {
 
 			switch (view.getId()) {
 			case R.id.iv_button_back:
-				Intent intent = new Intent(UserDetails.this, UserActivity.class);
+				Intent intent = new Intent(UserDetailsActivity.this, UserActivity.class);
 				startActivity(intent);
 				finish();
 				break;
@@ -175,10 +172,8 @@ public class UserDetails extends Activity {
 				saveUserInfo();
 				break;
 			// 用户头像选择
-			case R.id.iv_image_carmer:
-				actionClickHead();
-				break;
 			case R.id.layout_picture:
+				actionClickHead();
 				break;
 			// 男
 			case R.id.but_sex_meal:
@@ -265,10 +260,10 @@ public class UserDetails extends Activity {
 
 			if (username.equals("") || username == null) {
 
-				Toast.makeText(UserDetails.this, R.string.username_toast_tip, Toast.LENGTH_SHORT).show();
+				Toast.makeText(UserDetailsActivity.this, R.string.username_toast_tip, Toast.LENGTH_SHORT).show();
 			} else {
 				saveUser(profileID, user);
-				Intent intent = new Intent(UserDetails.this, UserActivity.class);
+				Intent intent = new Intent(UserDetailsActivity.this, UserActivity.class);
 				startActivity(intent);
 				finish();
 			}
@@ -278,11 +273,11 @@ public class UserDetails extends Activity {
 		private void saveUser(int profileID, User user) {
 			Log.i("tag", "把用户信息数据到数据库。。。。。。");
 			if (user != null) {
-				User temp = DatabaseProvider.queryUser(UserDetails.this, profileID);
+				User temp = DatabaseProvider.queryUser(UserDetailsActivity.this, profileID);
 				if (temp == null) {
-					DatabaseProvider.insertUser(UserDetails.this, profileID, user);
+					DatabaseProvider.insertUser(UserDetailsActivity.this, profileID, user);
 				} else {
-					DatabaseProvider.updateUser(UserDetails.this, profileID, user);
+					DatabaseProvider.updateUser(UserDetailsActivity.this, profileID, user);
 				}
 
 			}
@@ -313,7 +308,7 @@ public class UserDetails extends Activity {
 
 	private void actionClickHead() {
 		System.out.println("clicked portrait");
-		dialog_portrait = new AlertDialog.Builder(UserDetails.this).setItems(new String[] { "Take Photo", "Choose Photo" }, new DialogInterface.OnClickListener() {
+		dialog_portrait = new AlertDialog.Builder(UserDetailsActivity.this).setItems(new String[] { getString(R.string.take_photo), getString(R.string.choose_photo) }, new DialogInterface.OnClickListener() {
 
 			@Override
 			public void onClick(DialogInterface arg0, int positon) {
@@ -345,7 +340,7 @@ public class UserDetails extends Activity {
 			if (dialog_portrait != null) {
 				dialog_portrait.dismiss();
 			}
-			if (resultCode == UserDetails.RESULT_OK) {
+			if (resultCode == UserDetailsActivity.RESULT_OK) {
 				cropPhoto(data.getData());// 裁剪图片
 			}
 			break;
@@ -353,7 +348,7 @@ public class UserDetails extends Activity {
 			if (dialog_portrait != null) {
 				dialog_portrait.dismiss();
 			}
-			if (resultCode == UserDetails.RESULT_OK) {
+			if (resultCode == UserDetailsActivity.RESULT_OK) {
 				File temp = new File(Environment.getExternalStorageDirectory() + "/head.jpg");
 				cropPhoto(Uri.fromFile(temp));// 裁剪图片
 			}
@@ -378,7 +373,7 @@ public class UserDetails extends Activity {
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 
 		if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
-			Intent intent = new Intent(UserDetails.this, UserActivity.class);
+			Intent intent = new Intent(UserDetailsActivity.this, UserActivity.class);
 			startActivity(intent);
 			finish();
 			return true;

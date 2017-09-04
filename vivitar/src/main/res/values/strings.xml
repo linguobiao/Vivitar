@@ -96,4 +96,16 @@
     <string name="ft">ft</string>
     <string name="lb">Lb</string>
  <string name="tip_no_user_keepOne">At least one user</string>
+    <string name="settings_language">Language</string>
+
+    <string name="Month">Month</string>
+    <string name="Quarter">Quarter</string>
+    <string name="Half_year">Half-year</string>
+    <string name="Year">Year</string>
+    <string name="Time">Time</string>
+    <string name="Weight_KG">Weight/KG</string>
+    <string name="Weight_LB">Weight/LB</string>
+    <string name="select_mail">Please select the mail software</string>
+    <string name="English">English</string>
+    <string name="Spanish">Spanish</string>
 </resources>

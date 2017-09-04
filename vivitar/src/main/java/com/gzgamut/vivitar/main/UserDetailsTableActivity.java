@@ -104,9 +104,9 @@ public class UserDetailsTableActivity extends Activity {
 		sharedPreferences = getSharedPreferences(
 				SettingActivity.SAVE_UNIT_NAME, MODE_PRIVATE);
 		if (sharedPreferences.getString(Global.UNIT, "").equals(Global.UNIT_LB)) {
-			weightUnit = "Weight/LB";
+			weightUnit = getString(R.string.Weight_LB);
 		} else {
-			weightUnit = "Weight/Kg";
+			weightUnit = getString(R.string.Weight_KG);
 		}
 		iv_button_chart = (ImageView) findViewById(R.id.iv_button_chart);
 		iv_button_chart.setOnClickListener(myOnClickListener);
@@ -174,7 +174,7 @@ public class UserDetailsTableActivity extends Activity {
 
 		private final NexusTypes familys[];
 
-		private final String headers[] = { "Time", weightUnit, "BMI", "Fat/%",
+		private final String headers[] = { getString(R.string.Time), weightUnit, getString(R.string.bmi), "Fat/%",
 				"Water/%", "Muscle/%", "Bone/Kg", "BMR/Kcal", };
 
 		private final int[] widths = { 120, 100, 100, 0, 0, 0, 0, 0, };

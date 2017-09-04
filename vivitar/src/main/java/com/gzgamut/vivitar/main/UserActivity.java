@@ -54,7 +54,7 @@ public class UserActivity extends Activity {
 			public void onItemClick(AdapterView<?> arg0, View arg1,
 					int positiong, long arg3) {
 				Intent intent0 = new Intent(UserActivity.this,
-						UserDetails.class);
+						UserDetailsActivity.class);
 				intent0.putExtra(USER_ID, userList.get(positiong).getUserId());
 				startActivity(intent0);
 				finish();
@@ -111,7 +111,7 @@ public class UserActivity extends Activity {
 
 			switch (view.getId()) {
 			case R.id.iv_button_add_user:
-				Intent i = new Intent(UserActivity.this, MyProfile.class);
+				Intent i = new Intent(UserActivity.this, MyProfileActivity.class);
 				startActivity(i);
 				// finish();
 				break;

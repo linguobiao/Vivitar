@@ -23,6 +23,7 @@ import android.os.Message;
 import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.InputFilter;
+import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -30,12 +31,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnKeyListener;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MyProfile extends Activity {
+public class MyProfileActivity extends Activity implements CompoundButton.OnCheckedChangeListener {
 
 	private static double meValue = 0;
 	private double value_us, value_metric;
@@ -61,7 +63,7 @@ public class MyProfile extends Activity {
 		setContentView(R.layout.my_profile);
 		initUI();
 		// 初始化身高和体重的单位
-		putUnit();
+//		putUnit();
 
 	}
 
@@ -84,26 +86,21 @@ public class MyProfile extends Activity {
 
 	private void initUI() {
 		sharedPreferences = getSharedPreferences(SettingActivity.SAVE_UNIT_NAME, MODE_PRIVATE);
-		context = MyProfile.this;
+		context = MyProfileActivity.this;
 		Button iv_button_back_profile = (Button) findViewById(R.id.iv_button_back_profile);
 		iv_button_back_profile.setOnClickListener(myOnClickListener);
 		Button iv_button_save_profile = (Button) findViewById(R.id.iv_button_save_profile);
 		iv_button_save_profile.setOnClickListener(myOnClickListener);
-		but_us = (Button) findViewById(R.id.but_us);
-		but_us.setOnClickListener(myOnClickListener);
-		but_metric = (Button) findViewById(R.id.but_metric);
-		but_metric.setOnClickListener(myOnClickListener);
-		but_us.setBackgroundResource(R.drawable.button_mf_no);
-		but_metric.setBackgroundResource(R.drawable.button_mf_no);
+		but_us = findViewById(R.id.but_us);
+		but_us.setOnCheckedChangeListener(this);
+		but_metric = findViewById(R.id.but_metric);
+		but_metric.setOnCheckedChangeListener(this);
 		//
-		but_meal_profile = (Button) findViewById(R.id.but_meal_profile);
-		but_meal_profile.setOnClickListener(myOnClickListener);
-		but_female_profile = (Button) findViewById(R.id.but_female_profile);
-		but_female_profile.setOnClickListener(myOnClickListener);
+		but_meal_profile = findViewById(R.id.but_meal_profile);
+		but_female_profile = findViewById(R.id.but_female_profile);
 		//
 		image_head = (MyCircleImageView) findViewById(R.id.image_head_profile);
-		iv_image_carmer_profile = (ImageView) findViewById(R.id.iv_image_carmer_profile);
-		iv_image_carmer_profile.setOnClickListener(myOnClickListener);
+		findViewById(R.id.layout_picture).setOnClickListener(myOnClickListener);
 		//
 		tv_unit_cm = (TextView) findViewById(R.id.tv_unit_cm);
 		tv_unit_kg = (TextView) findViewById(R.id.tv_unit_kg);
@@ -118,6 +115,9 @@ public class MyProfile extends Activity {
 		setEditTextCountWeight(et_goal_weight, 0, 0);
 		//
 		setEditTextCountAge(et_age_profile, 0, 120);
+
+		but_metric.setChecked(true);
+		but_meal_profile.setChecked(true);
 	}
 
 	private OnClickListener myOnClickListener = new OnClickListener() {
@@ -127,57 +127,54 @@ public class MyProfile extends Activity {
 			case R.id.iv_button_back_profile:
 				finish();
 				break;
-			case R.id.but_us:
-				tabUs();
-				break;
-			case R.id.but_metric:
-				tabMetric();
-				break;
-			case R.id.but_meal_profile:
-				but_meal_profile.setBackgroundResource(R.drawable.button_mf_yes);
-				but_female_profile.setBackgroundResource(R.drawable.button_mf_no);
-				break;
-			case R.id.but_female_profile:
-				but_meal_profile.setBackgroundResource(R.drawable.button_mf_no);
-				but_female_profile.setBackgroundResource(R.drawable.button_mf_yes);
-				break;
 			// 保存到数据库，插入第一条数据
 			case R.id.iv_button_save_profile:
 				saveData();
 				break;
-			case R.id.iv_image_carmer_profile:
+			case R.id.layout_picture:
 				actionHead();
 				break;
 			default:
 				break;
 			}
 		}
-
 	};
 
+	@Override
+	public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+		switch (compoundButton.getId()) {
+			case R.id.but_us:
+				if (isChecked) tabUs();
+				break;
+			case R.id.but_metric:
+				if (isChecked) tabMetric();
+				break;
+			default:break;
+		}
+	}
+
+
 	protected void tabMetric() {
-		but_us.setBackgroundResource(R.drawable.button_mf_no);
-		but_metric.setBackgroundResource(R.drawable.button_mf_yes);
 		et_height_profile.setFilters(new InputFilter[] { new InputFilter.LengthFilter(3) });
 		// 身高
-		if (!et_height_profile.getText().toString().equals("") && et_height_profile.getText().toString() != null) {
+		String heightStr = et_height_profile.getText().toString();
+		if (TextUtils.isEmpty(heightStr)) {
+			et_height_profile.setHint(Global.DEF_CM);
+		} else {
 			if (tv_unit_cm.getText().toString().equals("ft")) {
-				String test = et_height_profile.getText().toString();
 				int ifirst = 0;
 				int iSend = 0;
 				String demo = "";
 
-				if (test.length() == 2) {
-					ifirst = Integer.parseInt(test.substring(0, 1));
+				if (heightStr.length() == 2) {
+					ifirst = Integer.parseInt(heightStr.substring(0, 1));
 					demo = ifirst + "";
 				}
-				if (test.length() == 5) {
-					Log.i("mytest", "test.substring(1, 2)=" + test.substring(1, 2) + "--test.substring(0, 1)=" + test.substring(0, 1));
-					ifirst = Integer.parseInt(test.substring(0, 1));
-					iSend = Integer.parseInt(test.substring(2, 3));
+				if (heightStr.length() == 5) {
+					ifirst = Integer.parseInt(heightStr.substring(0, 1));
+					iSend = Integer.parseInt(heightStr.substring(2, 3));
 					demo = ifirst + "." + iSend;
 				}
-				Log.i("cm", "ifirst=" + ifirst + "iSend=" + iSend + "demo=" + demo);
 				if (demo.equals("") || demo == null) {
 
 				} else {
@@ -186,8 +183,11 @@ public class MyProfile extends Activity {
 			}
 		}
 
+
 		// 目标体重
-		if (!et_goal_weight.getText().toString().equals("") && et_goal_weight.getText().toString() != null) {
+		if (TextUtils.isEmpty(et_goal_weight.getText().toString())) {
+			et_goal_weight.setHint(Global.DEF_KG);
+		} else {
 			if (tv_unit_kg.getText().toString().equals("Lb")) {
 				// 66
 				if (meValue == value_us) {
@@ -206,23 +206,27 @@ public class MyProfile extends Activity {
 	}
 
 	protected void tabUs() {
-		but_us.setBackgroundResource(R.drawable.button_mf_yes);
-		but_metric.setBackgroundResource(R.drawable.button_mf_no);
 		setEditTextCount(et_height_profile, 0, 255);
 		et_height_profile.setFilters(new InputFilter[] { new InputFilter.LengthFilter(5) });
 		//
-		if (!et_height_profile.getText().toString().equals("") && et_height_profile.getText().toString() != null) {
+		String heightStr = et_height_profile.getText().toString();
+		if (TextUtils.isEmpty(heightStr)) {
+			et_height_profile.setHint(Global.DEF_IN);
+		} else {
 			if (tv_unit_cm.getText().toString().equals("cm")) {
 
-				double number = CalculateHelper.cmToFeet(Double.parseDouble(et_height_profile.getText().toString()));
+				double number = CalculateHelper.cmToFeet(Double.parseDouble(heightStr));
 
 				int i = (int) CalculateHelper.decimal(number);
 				double id = (CalculateHelper.decimal(number) - i) * 10;
 				et_height_profile.setText(i + "'" + (int) id + "''");
 			}
 		}
+
 		// 目标体重
-		if (!et_goal_weight.getText().toString().equals("") && et_goal_weight.getText().toString() != null) {
+		if (TextUtils.isEmpty(et_goal_weight.getText().toString())) {
+			et_goal_weight.setHint(Global.DEF_LB);
+		} else {
 			if (tv_unit_kg.getText().toString().equals("Kg")) {
 				// 66
 				value_metric = meValue;
@@ -232,8 +236,6 @@ public class MyProfile extends Activity {
 					et_goal_weight.setText(CalculateHelper.kgToLbs(meValue) + "");
 				}
 				value_us = meValue;
-
-				Log.i("test", "value_us=" + value_us);
 
 			}
 		}
@@ -245,88 +247,66 @@ public class MyProfile extends Activity {
 	protected void saveData() {
 		// et_username_profile,et_age_profile,et_height_profile,et_goal_weight;
 		String name_str = et_username_profile.getText().toString().trim();
+		if (TextUtils.isEmpty(name_str)) name_str = et_username_profile.getHint().toString().trim();
 		String age_str = et_age_profile.getText().toString();
-		String height_str = null;
+		if (TextUtils.isEmpty(age_str)) age_str = et_age_profile.getHint().toString();
+		String height_str = et_height_profile.getText().toString();
+		if (TextUtils.isEmpty(height_str)) {
+			height_str = Global.DEF_CM;
+		}else {
+			if (tv_unit_cm.getText().toString().equals("cm")) {
 
-		if (tv_unit_cm.getText().toString().equals("cm")) {
-			height_str = et_height_profile.getText().toString();
-		} else {
-			String height_demo = et_height_profile.getText().toString();
-			String ia = "", ib = "";
-			if (height_demo.length() == 2) {
-				ia = height_demo.substring(0, 1);
-			} else if (height_demo.length() == 5) {
-				ia = height_demo.substring(0, 1);
-				ib = height_demo.substring(2, 3);
-			}
-			String demo = ia + "." + ib;
-			if (!height_demo.equals("") && height_demo != null) {
+			} else {
+				String ia = "", ib = "";
+				if (height_str.length() == 2) {
+					ia = height_str.substring(0, 1);
+				} else if (height_str.length() == 5) {
+					ia = height_str.substring(0, 1);
+					ib = height_str.substring(2, 3);
+				}
+				String demo = ia + "." + ib;
 
-				Log.i("height", "demo=" + demo);
 				height_str = CalculateHelper.feetToCm(Double.parseDouble(demo)) + "";
-				Log.i("height", "height_str=" + height_str);
 			}
 		}
 
-		String weight_str = null;
 
-		if (tv_unit_kg.getText().toString().equals("Kg")) {
-			Log.i("weight", "tv_unit_kg=======");
-			weight_str = et_goal_weight.getText().toString();
-		} else {
-			Log.i("weight", "tv_unit_lb=======");
-			if (!et_goal_weight.getText().toString().equals("") && et_goal_weight.getText().toString() != null) {
-				double i = CalculateHelper.LbsToKg(Double.parseDouble(et_goal_weight.getText().toString()));
+		String weight_str = et_goal_weight.getText().toString();
+		if (TextUtils.isEmpty(weight_str)){
+			weight_str = Global.DEF_KG;
+		} else{
+			if (tv_unit_kg.getText().toString().equals("Kg")) {
+			} else {
+				double i = CalculateHelper.LbsToKg(Double.parseDouble(weight_str));
 				double f1 = CalculateHelper.decimal(i);
 				weight_str = f1 + "";
-				Log.i("weight", "weight_str======="+weight_str);
-			}
 
+			}
 		}
 
 		image_head.setDrawingCacheEnabled(true);
 
-		if (name_str == null || name_str.equals("")) {
-			Toast.makeText(MyProfile.this, getString(R.string.female_user_details), Toast.LENGTH_SHORT).show();
+		User user = new User();
+		user.setUsername(name_str);
+		user.setAge(Integer.parseInt(age_str));
+		user.setHead(image_head.getDrawingCache(true));
+		user.setSex(but_female_profile.isChecked() ? Global.TYPE_SEX_FEMALE : Global.TYPE_SEX_MALE);
+		user.setHeight(Double.parseDouble(height_str));
+		user.setGoalWeight(Double.parseDouble(weight_str));
+		user.setUnit("defalut");
+		DatabaseProvider.insertUser_(MyProfileActivity.this, user);
+		Editor editor = sharedPreferences.edit();
+		if (sharedPreferences.getString(Global.APP_FRIST, "").equals(Global.APP_ENTERED)) {
+			Intent i = new Intent(MyProfileActivity.this, UserActivity.class);
+			startActivity(i);
+			finish();
 		} else {
-			if (age_str == null || age_str.equals("")) {
-				Toast.makeText(MyProfile.this, "Input  can not be empty", Toast.LENGTH_SHORT).show();
-			} else {
-				if (height_str == null || height_str.equals("")) {
-					Toast.makeText(MyProfile.this, "Input  can not be empty", Toast.LENGTH_SHORT).show();
-				} else {
-					if (weight_str == null || weight_str.equals("")) {
-						Toast.makeText(MyProfile.this, "Input  can not be empty", Toast.LENGTH_SHORT).show();
-					} else {
-						User user = new User();
-						user.setUsername(name_str);
-						user.setAge(Integer.parseInt(age_str));
-						user.setHead(image_head.getDrawingCache(true));
-						user.setHeight(Double.parseDouble(height_str));
-						//
-						user.setGoalWeight(Double.parseDouble(weight_str));
-						//
-						Log.i("weight", "weight=" + Double.parseDouble(weight_str));
-						user.setUnit("defalut");
-						DatabaseProvider.insertUser_(MyProfile.this, user);
-						Editor editor = sharedPreferences.edit();
-						if (sharedPreferences.getString(Global.APP_FRIST, "").equals(Global.APP_ENTERED)) {
-							Intent i = new Intent(MyProfile.this, UserActivity.class);
-							startActivity(i);
-							finish();
-						} else {
-							Intent i = new Intent(MyProfile.this, MainActivity.class);
-							editor.putString(Global.APP_FRIST, Global.APP_ENTERED);
-							editor.commit();
-							startActivity(i);
-							finish();
-						}
-
-					}
-				}
-			}
+			Intent i = new Intent(MyProfileActivity.this, MainActivity.class);
+			editor.putString(Global.APP_FRIST, Global.APP_ENTERED);
+			editor.commit();
+			startActivity(i);
+			finish();
 		}
-
 	}
 
 	/**
@@ -453,6 +433,8 @@ public class MyProfile extends Activity {
 
 				if (!et_goal_weight.getText().toString().equals("") && et_goal_weight.getText().toString() != null) {
 					meValue = Double.parseDouble(et_goal_weight.getText().toString());
+				} else {
+					meValue = Double.parseDouble(et_goal_weight.getHint().toString());
 				}
 
 				int num = -1;
@@ -493,7 +475,7 @@ public class MyProfile extends Activity {
 
 	//
 	protected void actionHead() {
-		dialog_portrait = new AlertDialog.Builder(MyProfile.this).setItems(new String[] { "Take Photo", "Choose Photo" }, new DialogInterface.OnClickListener() {
+		dialog_portrait = new AlertDialog.Builder(MyProfileActivity.this).setItems(new String[] { getString(R.string.take_photo), getString(R.string.choose_photo) }, new DialogInterface.OnClickListener() {
 
 			@Override
 			public void onClick(DialogInterface arg0, int positon) {
@@ -547,7 +529,7 @@ public class MyProfile extends Activity {
 			if (dialog_portrait != null) {
 				dialog_portrait.dismiss();
 			}
-			if (resultCode == UserDetails.RESULT_OK) {
+			if (resultCode == UserDetailsActivity.RESULT_OK) {
 				cropPhoto(data.getData());// 裁剪图片
 			}
 			break;
@@ -555,7 +537,7 @@ public class MyProfile extends Activity {
 			if (dialog_portrait != null) {
 				dialog_portrait.dismiss();
 			}
-			if (resultCode == UserDetails.RESULT_OK) {
+			if (resultCode == UserDetailsActivity.RESULT_OK) {
 				File temp = new File(Environment.getExternalStorageDirectory() + "/head.jpg");
 				cropPhoto(Uri.fromFile(temp));// 裁剪图片
 			}
@@ -577,9 +559,8 @@ public class MyProfile extends Activity {
 	}
 
 	//
-	private Button but_us, but_metric, but_meal_profile, but_female_profile;
+	private RadioButton but_us, but_metric, but_meal_profile, but_female_profile;
 	private MyCircleImageView image_head;
-	private ImageView iv_image_carmer_profile;
 	private AlertDialog dialog_portrait;
 	private Bitmap head;// 头像Bitmap
 	private static TextView tv_unit_cm;

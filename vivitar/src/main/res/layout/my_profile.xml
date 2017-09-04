@@ -45,7 +45,7 @@
             android:textColor="@android:color/white" />
     </RelativeLayout>
 
-    <LinearLayout
+    <RadioGroup
         android:id="@+id/layout_us_metric"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,36 +54,39 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal" >
 
-        <Button
+        <RadioButton
             android:id="@+id/but_us"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_mf_yes"
+            android:background="@drawable/selector_unit"
             android:gravity="center"
+            android:button="@null"
             android:text="@string/us" />
 
-        <Button
+        <RadioButton
             android:id="@+id/but_metric"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_mf_no"
+            android:background="@drawable/selector_unit"
             android:gravity="center"
             android:orientation="horizontal"
+            android:button="@null"
             android:text="@string/metric" />
-    </LinearLayout>
+    </RadioGroup>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:orientation="vertical" >
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp" >
+            android:layout_height="wrap_content" >
 
             <com.gzgamut.vivitar.view.MyCircleImageView
                 android:id="@+id/image_head_profile"
@@ -122,8 +125,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/background_input" >
 
@@ -136,23 +137,15 @@
 
             <EditText
                 android:id="@+id/et_username_profile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="5dp"
-                android:background="@null"
+                style="@style/et_profile"
                 android:hint="@string/user_details_hint"
-                android:maxLength="10"
-                android:singleLine="true" />
+                android:maxLength="10" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/background_input" >
 
@@ -163,7 +156,7 @@
                 android:layout_marginLeft="5dp"
                 android:text="@string/sex_user_details" />
 
-            <LinearLayout
+            <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -171,32 +164,32 @@
                 android:layout_marginRight="5dp"
                 android:orientation="horizontal" >
 
-                <Button
+                <RadioButton
                     android:id="@+id/but_meal_profile"
                     style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_mf_yes"
+                    android:background="@drawable/selector_unit"
                     android:gravity="center"
+                    android:button="@null"
                     android:text="@string/male_user_details" />
 
-                <Button
+                <RadioButton
                     android:id="@+id/but_female_profile"
                     style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/button_mf_no"
+                    android:background="@drawable/selector_unit"
                     android:gravity="center"
                     android:orientation="horizontal"
+                    android:button="@null"
                     android:text="@string/female_user_details" />
-            </LinearLayout>
+            </RadioGroup>
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/background_input" >
 
@@ -209,23 +202,15 @@
 
             <EditText
                 android:id="@+id/et_age_profile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="5dp"
-                android:background="@null"
+                style="@style/et_profile"
                 android:hint="@string/_33_user_details"
                 android:inputType="number"
-                android:maxLength="3"
-                android:singleLine="true" />
+                android:maxLength="3" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/background_input" >
 
@@ -238,16 +223,11 @@
 
             <EditText
                 android:id="@+id/et_height_profile"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignRight="@+id/tv_unit_cm"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="25dp"
-                android:background="@null"
+                style="@style/et_profile"
+                android:layout_marginRight="20dp"
                 android:hint="@string/_175_userdetaile"
                 android:inputType="number"
-                android:maxLength="5"
-                android:singleLine="true" />
+                android:maxLength="5" />
 
             <TextView
                 android:id="@+id/tv_unit_cm"
@@ -262,8 +242,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:layout_marginTop="15dp"
             android:background="@drawable/background_input" >
 
@@ -276,16 +254,11 @@
 
             <EditText
                 android:id="@+id/et_goal_weight"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignRight="@+id/tv_unit_kg"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="25dp"
-                android:background="@null"
+                style="@style/et_profile"
+                android:layout_marginRight="20dp"
                 android:hint="@string/goal_weight_value"
                 android:inputType="number"
-                android:maxLength="4"
-                android:singleLine="true" />
+                android:maxLength="4" />
 
             <TextView
                 android:id="@+id/tv_unit_kg"

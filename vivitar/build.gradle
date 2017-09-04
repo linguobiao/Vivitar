@@ -12,8 +12,8 @@ android {
         applicationId "com.gzgamut.vivitar"
         minSdkVersion 18
         targetSdkVersion 21
-        versionCode 10
-        versionName "1.2.10"
+        versionCode 13
+        versionName "1.2.13"
     }
 
     applicationVariants.all { variant ->
